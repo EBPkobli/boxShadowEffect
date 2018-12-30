@@ -1,2 +1,2 @@
-# boxShadowEffect
-Babam için yaptığım efek
+# JqueryHazir
+Hızlıca kodlamaya başlayabilmek için hazırladığım jquery kütüphanesiyle

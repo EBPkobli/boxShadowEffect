@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #cacaca;
+}
+.container{
+    width: 450px;
+    height: 250px;
+    background: #262626;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.container .dugme{
+    width: 50px;
+    height: 50px;
+    background: #962626;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div .imp{
+    background: transparent;
+    position: absolute;
+    animation-name: shadowPulse;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0px 0px 0px 0px hsla(0, 0%, 0%, 1);
+    }
+
+    100% {
+        box-shadow: 0px 0px 500px 250px hsla(0, 0%, 0%, 0);
+    }
+}
